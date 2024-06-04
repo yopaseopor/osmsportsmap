@@ -179,7 +179,7 @@ var config = {
 			group: 'Deportes',
 			title: 'Vía ferrata',
 			query: '(nwr["highway"="via_ferrata"]({{bbox}});node(w););out meta;',
-			iconSrc: 'icones/maxspeed_empty.svg',
+			iconSrc: 'sports/via_ferrata.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -194,7 +194,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: 'icones/maxspeed_empty.svg',
+							src: 'sports/via_ferrata.svg',
 							scale:0.30
 						}),
 							text: new ol.style.Text({
@@ -323,7 +323,7 @@ style: function (feature) {
 			group: 'Ocio',
 			title: 'Piscina',
 			query: '(nwr["leisure"="swimming_pool"]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconSrc: imgSrc + 'sports/swimming.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -338,7 +338,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
+							src: imgSrc + 'sports/swimming.svg',
 							scale:0.03
 						}),
 							text: new ol.style.Text({
