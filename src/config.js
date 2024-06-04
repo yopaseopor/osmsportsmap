@@ -320,7 +320,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'Ocio',
+			group: 'Deportes',
 			title: 'Piscina',
 			query: '(nwr["leisure"="swimming_pool"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'sports/swimming.svg',
