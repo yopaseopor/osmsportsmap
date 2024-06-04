@@ -179,7 +179,7 @@ var config = {
 			group: 'Deportes',
 			title: 'Vía ferrata',
 			query: '(nwr["highway"="via_ferrata"]({{bbox}});node(w););out meta;',
-			iconSrc: 'icones/sports/via_ferrata.svg',
+			iconSrc: 'icones/maxspeed_empty.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
 				var key_regex = /^name$/
@@ -194,7 +194,7 @@ style: function (feature) {
 				});
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
-							src: 'icones/sports/via_ferrata.svg',
+							src: 'icones/maxspeed_empty.svg',
 							scale:0.30
 						}),
 							text: new ol.style.Text({
