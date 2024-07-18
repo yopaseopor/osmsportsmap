@@ -1548,7 +1548,7 @@ style: function (feature) {
 				
 		
 		{
-			group: 'mtb',
+			group: 'MTB',
 			title: 'mtb=yes',
 			query: '(nwr["mtb"="yes"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -1585,7 +1585,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'MTB',
 			title: 'mtb=designated',
 			query: '(nwr["mtb"="designated"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -1622,7 +1622,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'MTB',
 			title: 'mtb=no',
 			query: '(nwr["mtb"="no"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -1659,7 +1659,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'MTB',
 			title: 'mtb:type=crosscountry',
 			query: '(nwr["mtb:type"="crosscountry"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -1696,7 +1696,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'MTB',
 			title: 'mtb:type=allmountain',
 			query: '(nwr["mtb:type"="allmountain"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -1733,7 +1733,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'MTB',
 			title: 'mtb:type=downhill',
 			query: '(nwr["mtb:type"="downhill"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -1770,7 +1770,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'MTB',
 			title: 'mtb:type=freeride',
 			query: '(nwr["mtb:type"="freeride"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -1807,7 +1807,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'MTB',
 			title: 'mtb:type=trail',
 			query: '(nwr["mtb:type"="trail"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -1844,7 +1844,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'MTB',
 			title: 'mtb:name (node)',
 			query: '(node["mtb:name"][name]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -1880,7 +1880,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb',
+			group: 'MTB',
 			title: 'mtb:name (way)',
 			query: '(wr["mtb:name"][name]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -1917,7 +1917,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'path',
+			group: 'MTB path',
 			title: 'mtb:scale=0',
 			query: '(nwr["mtb:scale"="0"]["highway"="path"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -1938,7 +1938,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'path',
+			group: 'MTB path',
 			title: 'mtb:scale=1',
 			query: '(nwr["mtb:scale"="1"]["highway"="path"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -1959,7 +1959,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'path',
+			group: 'MTB path',
 			title: 'mtb:scale=2',
 			query: '(nwr["mtb:scale"="2"]["highway"="path"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -1980,7 +1980,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'path',
+			group: 'MTB path',
 			title: 'mtb:scale=3',
 			query: '(nwr["mtb:scale"="3"]["highway"="path"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2001,7 +2001,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'path',
+			group: 'MTB path',
 			title: 'mtb:scale=4',
 			query: '(nwr["mtb:scale"="4"]["highway"="path"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2022,7 +2022,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'path',
+			group: 'MTB path',
 			title: 'mtb:scale=5',
 			query: '(nwr["mtb:scale"="5"]["highway"="path"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2043,7 +2043,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'path',
+			group: 'MTB path',
 			title: 'mtb:scale=6',
 			query: '(nwr["mtb:scale"="6"]["highway"="path"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2064,7 +2064,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'track',
+			group: 'MTB track',
 			title: 'mtb:scale=0',
 			query: '(nwr["mtb:scale"="0"]["highway"="track"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2085,7 +2085,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'track',
+			group: 'MTB track',
 			title: 'mtb:scale=1',
 			query: '(nwr["mtb:scale"="1"]["highway"="track"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2106,7 +2106,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'track',
+			group: 'MTB track',
 			title: 'mtb:scale=2',
 			query: '(nwr["mtb:scale"="2"]["highway"="track"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2127,7 +2127,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'track',
+			group: 'MTB track',
 			title: 'mtb:scale=3',
 			query: '(nwr["mtb:scale"="3"]["highway"="track"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2148,7 +2148,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'track',
+			group: 'MTB track',
 			title: 'mtb:scale=4',
 			query: '(nwr["mtb:scale"="4"]["highway"="track"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2169,7 +2169,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'track',
+			group: 'MTB track',
 			title: 'mtb:scale=5',
 			query: '(nwr["mtb:scale"="5"]["highway"="track"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2190,7 +2190,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'track',
+			group: 'MTB track',
 			title: 'mtb:scale=6',
 			query: '(nwr["mtb:scale"="6"]["highway"="track"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2211,7 +2211,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale=0',
 			query: '(nwr["mtb:scale"="0"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2232,7 +2232,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale=1',
 			query: '(nwr["mtb:scale"="1"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2253,7 +2253,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale=2',
 			query: '(nwr["mtb:scale"="2"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2274,7 +2274,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale=3',
 			query: '(nwr["mtb:scale"="3"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2295,7 +2295,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale=4',
 			query: '(nwr["mtb:scale"="4"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2316,7 +2316,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale=5',
 			query: '(nwr["mtb:scale"="5"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2337,7 +2337,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale=6',
 			query: '(nwr["mtb:scale"="6"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot.png',
@@ -2358,7 +2358,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale:uphill=0',
 			query: '(nwr["mtb:scale:uphill"="0"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -2379,7 +2379,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale:uphill=1',
 			query: '(nwr["mtb:scale:uphill"="1"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -2400,7 +2400,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale:uphill=2',
 			query: '(nwr["mtb:scale:uphill"="2"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -2421,7 +2421,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale:uphill=3',
 			query: '(nwr["mtb:scale:uphill"="3"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -2442,7 +2442,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale:uphill=4',
 			query: '(nwr["mtb:scale:uphill"="4"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -2463,7 +2463,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale:uphill=5',
 			query: '(nwr["mtb:scale:uphill"="5"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -2484,7 +2484,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale:uphill=6',
 			query: '(nwr["mtb:scale:uphill"="6"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -2505,7 +2505,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale:imba=0',
 			query: '(nwr["mtb:scale:tdot2"="0"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/line.png',
@@ -2526,7 +2526,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale:imba=1',
 			query: '(nwr["mtb:scale:imba"="1"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot2.png',
@@ -2547,7 +2547,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale:imba=2',
 			query: '(nwr["mtb:scale:imba"="2"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot2.png',
@@ -2568,7 +2568,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale:imba=3',
 			query: '(nwr["mtb:scale:imba"="3"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot2.png',
@@ -2589,7 +2589,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'mtb:scale:imba=4',
 			query: '(nwr["mtb:scale:imba"="4"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tdot2.png',
@@ -2610,7 +2610,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'class:bicycle:mtb=3',
 			query: '(nwr["class:bicycle:mtb"="3"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tlineline.png',
@@ -2631,7 +2631,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'class:bicycle:mtb=2',
 			query: '(nwr["class:bicycle:mtb"="2"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tlineline.png',
@@ -2652,7 +2652,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'class:bicycle:mtb=1',
 			query: '(nwr["class:bicycle:mtb"="1"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tlineline.png',
@@ -2673,7 +2673,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'class:bicycle:mtb=0',
 			query: '(nwr["class:bicycle:mtb"="0"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tlineline.png',
@@ -2694,7 +2694,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'class:bicycle:mtb=-1',
 			query: '(nwr["class:bicycle:mtb"="-1"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tlineline.png',
@@ -2715,7 +2715,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'class:bicycle:mtb=-2',
 			query: '(nwr["class:bicycle:mtb"="-2"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tlineline.png',
@@ -2736,7 +2736,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'mtb:scale',
+			group: 'MTB :scale',
 			title: 'class:bicycle:mtb=-3',
 			query: '(nwr["class:bicycle:mtb"="-3"]({{bbox}});node(w););out;',
 			iconSrc: imgSrc + 'base/tlineline.png',
