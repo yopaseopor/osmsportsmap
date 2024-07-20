@@ -176,7 +176,7 @@ var config = {
 				
 		
 		{	
-			group: 'Esports/Deportes/Sports',
+			group: 'Llocs/Lugares/Places',
 			title: 'Vía ferrata',
 			query: '(nwr["highway"="via_ferrata"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'sports/via_ferrata.svg',
@@ -212,7 +212,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Esports/Deportes/Sports',
+			group: 'Botigues/Tiendas/Shops',
 			title: 'Suplementos alimenticios',
 			query: '(nwr["shop"="nutrition_supplements"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -624,7 +624,7 @@ style: function (feature) {
 			}
   },
 		{
-			group: 'Turismo',
+			group: 'Oci/o/Leisure',
 			title: 'Minigolf',
 			query: '(nwr["leisure"="miniature_golf"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -660,7 +660,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Turismo',
+			group: 'Oci/o/Leisure',
 			title: 'Pista de hielo',
 			query: '(nwr["leisure"="ice_rink"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -696,7 +696,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Turismo',
+			group: 'Oci/o/Leisure',
 			title: 'Boleras',
 			query: '(nwr["leisure"="bowling_alley"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -768,7 +768,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'Esports/Deportes/Sports',
+			group: 'Llocs/Lugares/Places',
 			title: 'Estadios',
 			query: '(nwr["leisure"="stadium"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -804,7 +804,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Esports/Deportes/Sports',
+			group: 'Llocs/Lugares/Places',
 			title: 'Campos / Pistas',
 			query: '(nwr["leisure"="pitch"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -840,7 +840,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Esports/Deportes/Sports',
+			group: 'Llocs/Lugares/Places',
 			title: 'Pistas de atletismo',
 			query: '(nwr["leisure"="track"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -876,7 +876,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Esports/Deportes/Sports',
+			group: 'Llocs/Lugares/Places',
 			title: 'Centro deportivo',
 			query: '(nwr["leisure"="sports_centre"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -912,7 +912,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Esports/Deportes/Sports',
+			group: 'Llocs/Lugares/Places',
 			title: 'Gimnasio',
 			query: '(nwr["leisure"="fitness_centre"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -948,7 +948,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Esports/Deportes/Sports',
+			group: 'Llocs/Lugares/Places',
 			title: 'Fitness exterior',
 			query: '(nwr["leisure"="fitness_station"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -984,7 +984,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Tiendas',
+			group: 'Botigues/Tiendas/Shops',
 			title: 'Tienda bicicletas',
 			query: '(nwr["shop"="bicycle"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -1020,7 +1020,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Tiendas',
+			group: 'Botigues/Tiendas/Shops',
 			title: 'Tienda deportes',
 			query: '(nwr["shop"="sports"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -1056,7 +1056,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Tiendas',
+			group: 'Botigues/Tiendas/Shops',
 			title: 'Tiendas excursionismo',
 			query: '(nwr["shop"="outdoor"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -1092,7 +1092,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Esports/Deportes/Sports',
+			group: 'Llocs/Lugares/Places',
 			title: 'Campo de golf',
 			query: '(nwr["leisure"="golf_course"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -1128,7 +1128,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Esports/Deportes/Sports',
+			group: 'Llocs/Lugares/Places',
 			title: 'Montar a caballo',
 			query: '(nwr["leisure"="horse_riding"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -1164,7 +1164,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Natural',
+			group: 'Llocs/Lugares/Places',
 			title: 'Plataforma cazadores',
 			query: '(nwr["amenity"="hunting_stand"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -1200,7 +1200,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Ocio',
+			group: 'Oci/o/Leisure',
 			title: 'Duchas',
 			query: '(nwr["amenity"="shower"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
