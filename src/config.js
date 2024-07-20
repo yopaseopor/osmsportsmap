@@ -358,7 +358,7 @@ style: function (feature) {
 		{
 			group: 'Deportes',
 			title: 'Piscina abierta al público',
-			query: '(nwr["leisure"="swimming_pool"]["name"~"iscina"]["access"!="private"]({{bbox}});node(w););out meta;',
+			query: '(nwr["name"~"iscina"]["access"!="private"][!"amenity"][!"shop"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 46, 204, 113 ,0.4)',
 			style: function () {
