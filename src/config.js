@@ -176,7 +176,7 @@ var config = {
 				
 		
 		{	
-			group: 'Deportes',
+			group: 'Esports/Deportes/Sports',
 			title: 'Vía ferrata',
 			query: '(nwr["highway"="via_ferrata"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'sports/via_ferrata.svg',
@@ -212,9 +212,225 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Deportes',
+			group: 'Esports/Deportes/Sports',
 			title: 'Suplementos alimenticios',
 			query: '(nwr["shop"="nutrition_supplements"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconStyle: 'background-color:rgba(255,255,255,0.4)',
+style: function (feature) {
+				var key_regex = /^name$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(255,0,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: 'rgba(255,0,0,1)',
+					width: 1
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Icon({
+							src: imgSrc + 'icones/maxspeed_empty.svg',
+							scale:0.03
+						}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 7,
+								offsetY : -12,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+				},
+		{
+			group: 'Esports/Deportes/Sports',
+			title: 'Futbol',
+			query: '(nwr["sport"="soccer"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconStyle: 'background-color:rgba(255,255,255,0.4)',
+style: function (feature) {
+				var key_regex = /^name$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(255,0,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: 'rgba(255,0,0,1)',
+					width: 1
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Icon({
+							src: imgSrc + 'icones/maxspeed_empty.svg',
+							scale:0.03
+						}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 7,
+								offsetY : -12,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+				},
+		{
+			group: 'Esports/Deportes/Sports',
+			title: 'Baloncesto',
+			query: '(nwr["sport"="basketball"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconStyle: 'background-color:rgba(255,255,255,0.4)',
+style: function (feature) {
+				var key_regex = /^name$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(255,0,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: 'rgba(255,0,0,1)',
+					width: 1
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Icon({
+							src: imgSrc + 'icones/maxspeed_empty.svg',
+							scale:0.03
+						}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 7,
+								offsetY : -12,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+				},
+		{
+			group: 'Esports/Deportes/Sports',
+			title: 'Hockey',
+			query: '(nwr["sport"="hockey"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconStyle: 'background-color:rgba(255,255,255,0.4)',
+style: function (feature) {
+				var key_regex = /^name$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(255,0,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: 'rgba(255,0,0,1)',
+					width: 1
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Icon({
+							src: imgSrc + 'icones/maxspeed_empty.svg',
+							scale:0.03
+						}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 7,
+								offsetY : -12,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+				},
+		{
+			group: 'Esports/Deportes/Sports',
+			title: 'Balonmano',
+			query: '(nwr["sport"="handball"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconStyle: 'background-color:rgba(255,255,255,0.4)',
+style: function (feature) {
+				var key_regex = /^name$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(255,0,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: 'rgba(255,0,0,1)',
+					width: 1
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Icon({
+							src: imgSrc + 'icones/maxspeed_empty.svg',
+							scale:0.03
+						}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 7,
+								offsetY : -12,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+				},
+		{
+			group: 'Esports/Deportes/Sports',
+			title: 'Fútbol americano',
+			query: '(nwr["sport"="football"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
+			iconStyle: 'background-color:rgba(255,255,255,0.4)',
+style: function (feature) {
+				var key_regex = /^name$/
+				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
+				var name = feature.get(name_key) || '';
+				var fill = new ol.style.Fill({
+					color: 'rgba(255,0,0,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: 'rgba(255,0,0,1)',
+					width: 1
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Icon({
+							src: imgSrc + 'icones/maxspeed_empty.svg',
+							scale:0.03
+						}),
+							text: new ol.style.Text({
+								text: name,
+								offsetX : 7,
+								offsetY : -12,
+								fill: new ol.style.Fill({
+                            color: 'rgba(0,0,0,1)'
+                        }),
+						}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+				},
+		{
+			group: 'Esports/Deportes/Sports',
+			title: 'Rugby',
+			query: '(nwr["sport"="rugby"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
 style: function (feature) {
@@ -320,8 +536,8 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'Deportes',
-			title: 'Piscina',
+			group: 'Aigua/Agua/Water',
+			title: 'Piscina/Swimming pool',
 			query: '(nwr["leisure"="swimming_pool"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'sports/swimming.svg',
 			iconStyle: 'background-color:rgba(255,255,255,0.4)',
@@ -356,8 +572,8 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'Deportes',
-			title: 'Piscina abierta al público',
+			group: 'Aigua/Agua/Water',
+			title: 'Piscina (públic/o) Pool',
 			query: '(nwr["name"~"iscina"]["access"!="private"][!"amenity"][!"shop"]({{bbox}});nwr["leisure"="swimming_pool"]["name"~"iscina"]["access"!="private"]({{bbox}}););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 46, 204, 113 ,0.4)',
@@ -382,8 +598,8 @@ style: function (feature) {
 			}
   },
 		{
-			group: 'Deportes',
-			title: 'Piscina privada',
+			group: 'Aigua/Agua/Water',
+			title: 'Piscina privada/private pool',
 			query: '(nwr["leisure"="swimming_pool"]["access"="private"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:#FF0000',
@@ -552,7 +768,7 @@ style: function (feature) {
 			}
 		},
 		{
-			group: 'Deportes',
+			group: 'Esports/Deportes/Sports',
 			title: 'Estadios',
 			query: '(nwr["leisure"="stadium"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -588,7 +804,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Deportes',
+			group: 'Esports/Deportes/Sports',
 			title: 'Campos / Pistas',
 			query: '(nwr["leisure"="pitch"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -624,7 +840,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Deportes',
+			group: 'Esports/Deportes/Sports',
 			title: 'Pistas de atletismo',
 			query: '(nwr["leisure"="track"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -660,7 +876,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Deportes',
+			group: 'Esports/Deportes/Sports',
 			title: 'Centro deportivo',
 			query: '(nwr["leisure"="sports_centre"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -696,7 +912,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Deportes',
+			group: 'Esports/Deportes/Sports',
 			title: 'Gimnasio',
 			query: '(nwr["leisure"="fitness_centre"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -732,7 +948,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Deportes',
+			group: 'Esports/Deportes/Sports',
 			title: 'Fitness exterior',
 			query: '(nwr["leisure"="fitness_station"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -768,43 +984,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Deportes',
-			title: 'Piscinas',
-			query: '(nwr["leisure"="swimming_pool"][!"access"]({{bbox}});node(w););out meta;',
-			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
-			iconStyle: 'background-color:rgba(255,255,255,0.4)',
-style: function (feature) {
-				var key_regex = /^name$/
-				var name_key = feature.getKeys().filter(function(t){return t.match(key_regex)}).pop() || "name"
-				var name = feature.get(name_key) || '';
-				var fill = new ol.style.Fill({
-					color: 'rgba(255,0,0,0.4)'
-				});
-				var stroke = new ol.style.Stroke({
-					color: 'rgba(255,0,0,1)',
-					width: 1
-				});
-				var style = new ol.style.Style({
-					image: new ol.style.Icon({
-							src: imgSrc + 'icones/maxspeed_empty.svg',
-							scale:0.03
-						}),
-							text: new ol.style.Text({
-								text: name,
-								offsetX : 7,
-								offsetY : -12,
-								fill: new ol.style.Fill({
-                            color: 'rgba(0,0,0,1)'
-                        }),
-						}),
-					fill: fill,
-					stroke: stroke
-				});
-				return style;
-			}
-				},
-		{
-			group: 'Deportes',
+			group: 'Tiendas',
 			title: 'Tienda bicicletas',
 			query: '(nwr["shop"="bicycle"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -840,7 +1020,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Deportes',
+			group: 'Tiendas',
 			title: 'Tienda deportes',
 			query: '(nwr["shop"="sports"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -876,7 +1056,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Deportes',
+			group: 'Tiendas',
 			title: 'Tiendas excursionismo',
 			query: '(nwr["shop"="outdoor"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -912,7 +1092,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Deportes',
+			group: 'Esports/Deportes/Sports',
 			title: 'Campo de golf',
 			query: '(nwr["leisure"="golf_course"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
@@ -948,7 +1128,7 @@ style: function (feature) {
 			}
 				},
 		{
-			group: 'Deportes',
+			group: 'Esports/Deportes/Sports',
 			title: 'Montar a caballo',
 			query: '(nwr["leisure"="horse_riding"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'icones/maxspeed_empty.svg',
