@@ -357,6 +357,32 @@ style: function (feature) {
 		},
 		{
 			group: 'Deportes',
+			title: 'Piscina abierta al público',
+			query: '(nwr["leisure"="swimming_pool"]["name"~"iscina"]({{bbox}});node(w););out meta;',
+			iconSrc: imgSrc + 'base/circle.svg',
+			iconStyle: 'background-color:rgba( 46, 204, 113 ,0.4)',
+			style: function () {
+				var fill = new ol.style.Fill({
+					color: 'rgba( 46, 204, 113 ,0.4)'
+				});
+				var stroke = new ol.style.Stroke({
+					color: 'rgba( 46, 204, 113 ,0.4)',
+					width: 1.25
+				});
+				var style = new ol.style.Style({
+					image: new ol.style.Circle({
+						fill: fill,
+						stroke: stroke,
+						radius: 5
+					}),
+					fill: fill,
+					stroke: stroke
+				});
+				return style;
+			}
+  },
+		{
+			group: 'Deportes',
 			title: 'Piscina privada',
 			query: '(nwr["leisure"="swimming_pool"]["access"="private"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
