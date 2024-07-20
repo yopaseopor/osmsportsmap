@@ -195,7 +195,7 @@ style: function (feature) {
 				var style = new ol.style.Style({
 					image: new ol.style.Icon({
 							src: imgSrc + 'sports/via_ferrata.svg',
-							scale:0.30
+							scale:0.03
 						}),
 							text: new ol.style.Text({
 								text: name,
