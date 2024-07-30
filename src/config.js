@@ -574,7 +574,7 @@ style: function (feature) {
 		{
 			group: 'Aigua/Agua/Water',
 			title: 'Piscina (públic/o) Pool',
-			query: '(nwr["name"~"iscina"]["access"!="private"][!"amenity"][!"shop"]({{bbox}}););out meta;',
+			query: '(nwr["name"~"iscina"]["access"!="private"][!"amenity"][!"shop"]({{bbox}});node(w););out meta;',
 			iconSrc: imgSrc + 'base/circle.svg',
 			iconStyle: 'background-color:rgba( 46, 204, 113 ,0.4)',
 			style: function () {
